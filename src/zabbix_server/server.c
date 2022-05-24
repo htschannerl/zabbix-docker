@@ -796,7 +796,7 @@ static void	zbx_load_config(ZBX_TASK_EX *task)
 		{"Fping6Location",		&CONFIG_FPING6_LOCATION,		TYPE_STRING,
 			PARM_OPT,	0,			0},
 		{"Timeout",			&CONFIG_TIMEOUT,			TYPE_INT,
-			PARM_OPT,	1,			200},
+			PARM_OPT,	1,			300},
 		{"TrapperTimeout",		&CONFIG_TRAPPER_TIMEOUT,		TYPE_INT,
 			PARM_OPT,	1,			300},
 		{"UnreachablePeriod",		&CONFIG_UNREACHABLE_PERIOD,		TYPE_INT,
